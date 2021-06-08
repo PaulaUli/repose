@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap);
+
+html, body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1;
+}
+body {
+    background-color: black;
+    width: 100%;
+    margin: 0;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1230px;
+}
+
+.header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 170px;
+}
+
+.nav {
+    display: flex;
+    align-items: baseline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    margin: 40px;
+}
+
+li {
+    margin: auto 0 20px;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 18px;
+    padding: 0;
+    border: none;
+    background: none;
+    color: white;
+    margin-right: 60px;
+}
+
+.buttonwhite {
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 7px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+  
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.mainphoto {
+    width: 100%;
+}
+
+.courses {
+    font-family: PTSerif;
+    color: #fff;
+    font-size: 63px;
+    line-height: 1;
+    background: black;
+    max-width: 1230px;
+    margin: 105px auto;
+    position: relative;
+    }
+
+.courseleft{
+    margin-top: 105px;
+}
+
+.courseright{
+    text-align: right;
+    margin-top: 105px;
+    position: relative;
+}
+
+.nameleft {
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 40px;
+    margin-left: calc(25% + 15px);
+  }
+.nameright {
+    font-weight: bold;
+    margin-right: 25%;
+    position: absolute;
+    top: 10%;
+    margin-left: 20%;
+}
+.numberleft{
+    font-size: 33px;
+    margin-left: calc(40% + 45px);
+    position: absolute;
+    top: 25%;
+}
+.numberright{
+    font-size: 33px;
+    position: absolute;
+    margin-left: 45%;
+    top: 50%;
+}
+h1{
+    color: white;
+    font-size: 63px;
+    font-family: PTSerif;
+    text-align: center;
+    margin: 32px;
+}
+h5{
+    color: white;
+    text-align: center;
+}
+.lotus{
+    text-align: center;
+
+}
+
+h4{
+    color: white;
+}
+iframe 
+{
+ border: none;
+ width: 100%; 
+ height: 90vh;
+} 
+footer{
+    height: 340px;
+}
+.logoend{
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    flex-basis: 25%;
+    margin-right: 8%;
+}
+
+.bottom{
+    max-width: 1170px;
+    margin:auto
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-col h4{
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+.footer-col{
+    margin-top: 50px;
+}
+.social{
+    flex-basis: 16%;
+}
+.articles, .other{
+    flex-basis: 25%;
+}
+span{
+    color: white;
+    font-family: PTSerif;
+    font-size: 16px;
+    margin-left: 16px;
+    position: absolute;
+    top: 23px;
+}
+.cookie{
+    background: blue;
+    height: 62px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
+.buttonwhitedown {
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    position: absolute;
+    right: 16px;
+    top: 12px;
+}
+
+.description h2 {
+   font-size: 33px;
+}
+.description h3 {
+    font-size: 18px;
+   }
+.video{
+    font-family: PTSerif;
+    width: 100%;
+    color: white;
+    position: relative;
+}
