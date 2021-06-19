@@ -220,15 +220,4 @@ span{
     top: 12px;
 }
 
-.description h2 {
-   font-size: 33px;
-}
-.description h3 {
-    font-size: 18px;
-   }
-.video{
-    font-family: PTSerif;
-    width: 100%;
-    color: white;
-    position: relative;
-}
+
