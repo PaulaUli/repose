@@ -281,7 +281,7 @@ span{
 }
 
 .item-info {
-    padding: 10px;
+    padding: 5px 10px 5px;
     font-size: 14px;
     flex-basis: 100%;
 }
@@ -307,20 +307,6 @@ span{
     background: blue;
 }
 
-.item-active {
-    display: flex;
-    margin-bottom: 20px;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(253, 253, 253, 0.685);
-    width: 120%;
-    color: black;
-    transform: translateX(-8.3%);
-    height: 80px;
-    font-family: PT Sans;
-    transition: all .2s ease-in-out; 
-}
-
 .logo {
     margin-top: 33px;
 }
@@ -337,9 +323,8 @@ span{
 }
 
 .item:hover {
-    transform: scale(1.1); 
-}
-.item-active:hover { 
-    transform: translateX(-8.3%) scale(1.1);
-
+    transform: scale(1.2);
+    background-color: rgba(253, 253, 253, 0.685); 
+    color: black;
+      
 }
