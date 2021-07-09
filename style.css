@@ -130,7 +130,6 @@ h1{
     font-size: 63px;
     font-family: PTSerif;
     text-align: center;
-    margin: 32px;
 }
 h5{
     color: white;
@@ -220,4 +219,114 @@ span{
     top: 12px;
 }
 
+.major {
+    display: flex; 
+}
+.background {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
 
+.background-img {
+    position: absolute;
+    background: linear-gradient(to bottom right, transparent, black), url('./images/ulapa.jpg') no-repeat center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   }
+.course { 
+    width: 390px;
+    position: absolute;
+    right: 210px;
+    top: 42px;
+    color: #fff;
+    font-family: PTSerif;
+}
+.top-information {
+    display: flex;
+    justify-content: space-between;
+}
+.custom-style {
+    height: 80px;
+} 
+.item {
+    display: flex;
+    margin-bottom: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 80px;
+    font-family: PT Sans;
+}
+.text {
+    margin-left: 105px;
+    width: 600px;
+    color: #fff;
+    font-family: PT Sans;
+    font-size: 18px;
+    line-height: 1.67;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.items {
+    padding-top: 100px;
+}
+
+.item-info {
+    padding: 10px;
+    font-size: 14px;
+    flex-basis: 100%;
+}
+.first-line {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.script-line {
+    font-size: 12px;
+    margin-top: 3px;
+}
+
+.timeline {
+    height: 3px;
+    background: gray;
+    margin-top: 3px;
+}
+
+.inner-timeline {
+    height: 100%;
+    width: 40%;
+    background: blue;
+}
+
+.item-active {
+    display: flex;
+    margin-bottom: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(253, 253, 253, 0.685);
+    width: 120%;
+    color: black;
+    transform: translateX(-8.3%);
+    height: 80px;
+    font-family: PT Sans;
+}
+.logo {
+    margin-top: 33px;
+}
+.description {
+    margin-bottom: 53px;
+}
+.header-description {
+    color: white;
+    font-size: 33px;
+    font-family: PT Serif;
+    font-weight: bold;
+}
